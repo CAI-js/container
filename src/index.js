@@ -4,7 +4,7 @@ class Container {
   }
 
   register(name, Clazz, isSingleton = true) {
-    const isClass = typeof Clazz === 'function';
+    const isClass = typeof Clazz === 'function' && /^\s*class\s+/.test(Clazz.toString());
     const item = { name, isSingleton };
     if (isSingleton) {
       item.instance = isClass ? new Clazz() : Clazz;
