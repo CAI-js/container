@@ -13,14 +13,14 @@ $ npm install @caijs/container
 ## Example of use
 
 ```javascript
-const container = require('@caijs/container');
+const { Container } = require('@caijs/container');
 
 class Something {
   constructor(name) {
     this.name = name;
   }
 }
-
+const container = new Container();
 container.register('a', new Something('a'), true);
 container.register('b', new Something('b'), true);
 container.register('Something', Something, false);
@@ -33,14 +33,14 @@ const something2 = container.get('Something'); // it will return another instanc
 
 ## Fallback locales
 ```javascript
-const container = require('@caijs/container');
+const { Container } = require('@caijs/container');
 
 class Something {
   constructor(name) {
     this.name = name;
   }
 }
-
+const container = new Container();
 container.register('something-es', new Something('something-es'), true);
 container.register('something-en', new Something('something-en'), true);
 container.register('otherthing-es', new Something('otherthing-es'), true);
