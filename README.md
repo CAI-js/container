@@ -1,6 +1,7 @@
 # @caijs/container
 
 [![Build Status](https://travis-ci.com/CAI-js/container.svg?branch=master)](https://travis-ci.com/CAI-js/container)
+[![Coverage Status](https://coveralls.io/repos/github/CAI-js/container/badge.svg?branch=master)](https://coveralls.io/github/CAI-js/container?branch=master)
 [![NPM version](https://img.shields.io/npm/v/@caijs/container.svg?style=flat)](https://www.npmjs.com/package/@caijs/container)
 [![NPM downloads](https://img.shields.io/npm/dm/@caijs/container.svg?style=flat)](https://www.npmjs.com/package/@caijs/container)
 
