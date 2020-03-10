@@ -1,5 +1,9 @@
 # @caijs/container
 
+[![Build Status](https://travis-ci.com/CAI-js/container.svg?branch=master)](https://travis-ci.com/CAI-js/container)
+[![NPM version](https://img.shields.io/npm/v/@caijs/container.svg?style=flat)](https://www.npmjs.com/package/@caijs/container)
+[![NPM downloads](https://img.shields.io/npm/dm/@caijs/container.svg?style=flat)](https://www.npmjs.com/package/@caijs/container)
+
 An IoC container that allows to register instance by locale with a fallback to english or default. 
 
 ## Installation
